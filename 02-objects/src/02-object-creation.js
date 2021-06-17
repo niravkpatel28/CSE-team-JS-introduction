@@ -2,6 +2,8 @@
 // name;
 // team;
 // constructor function .... constructing an object
+
+// this can be object or window
 function createPerson(name, team) {
   // this variable. .--> new object that will be created
   this.name = name;
@@ -16,24 +18,3 @@ function createPerson(name, team) {
 let neemish = new createPerson("Neemish C", "CSE");
 let tanu = new createPerson("Tanu S.", "CSE");
 console.log("New object", tanu);
-
-
-
-const saqlain = {
-    name: "",
-    designation:""
-    company:"./path to the logo", // this is common to all ... 
-    profilePic: '../path to the image'
-    socialMedia:{
-        linkedIn:" link",
-        instagram:" ",
-        ... 
-    }, 
-    address:{
-        stree:"",
-        pin:""
-        landmark: { 
-            
-        }
-    }
-}
