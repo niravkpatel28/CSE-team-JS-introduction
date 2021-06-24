@@ -2,9 +2,10 @@ const rootDiv = document.getElementById("root");
 addButton = document.getElementById("addBtn");
 
 addButton.addEventListener("click", () => {
-  console.log("Button added");
+  name = faker.name.firstName();
+  console.log(name);
 });
 
-const name = faker.name.firstName();
+let name = faker.name.firstName();
 const phoneNumber = faker.phone.phoneNumber();
 console.log("Fake Name", name, phoneNumber);
