@@ -1,0 +1,28 @@
+#root {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: auto;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.card-margin {
+  margin: 10px;
+}
+
+.center-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+/* #addBtn {
+  border-radius: 10px;
+} */
