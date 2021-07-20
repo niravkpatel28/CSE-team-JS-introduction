@@ -53,3 +53,10 @@ const addEmployee = () => {
 
 // add Event listener to add Button
 addButton.addEventListener("click", addEmployee);
+
+// authorDetails:{
+//   authorName: ,
+//   pic: ,
+//   designation:
+
+// }
