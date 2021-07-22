@@ -29,4 +29,13 @@ const team = [
     team: "People/LND",
     company: "Surfboard",
   },
+  {
+    empid: "CS5",
+    name: "Ashley M.",
+    team: "CSE undercover agents ",
+    company: "Contenstack",
+  },
 ];
+// team consists of members
+// 5 members
+// each member has some properties
